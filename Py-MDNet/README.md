@@ -17,7 +17,7 @@ If you're using this code for your research, please cite:
 	}
  
 ## Prerequisites
-- python 2.7
+- python 2.7 or python 3.5(本作者使用的版本)
 - [PyTorch](http://pytorch.org/) and its dependencies 
 
 ## Usage
