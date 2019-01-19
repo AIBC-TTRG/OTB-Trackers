@@ -26,10 +26,10 @@ If you're using this code for your research, please cite:
 ```bash
  cd tracking
  python run_tracker.py -s DragonBaby [-d (display fig)] [-f (save fig)]
+ or python run_tracker.py -s Woman
 ```
  - You can provide a sequence configuration in two ways (see tracking/gen_config.py):
    - ```python run_tracker.py -s [seq name]```
-   - ```python run_tracker.py -j [json path]```
  
 ### Pretraining
  - Download [VGG-M](http://www.vlfeat.org/matconvnet/models/imagenet-vgg-m.mat) (matconvnet model) and save as "models/imagenet-vgg-m.mat"
