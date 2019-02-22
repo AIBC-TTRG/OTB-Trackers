@@ -26,7 +26,7 @@ If you're using this code for your research, please cite:
 ```bash
  cd tracking
  python run_tracker.py -s DragonBaby [-d (display fig)] [-f (save fig)]
- or python run_tracker.py -s Woman
+ or python run_tracker.py -s Skater
 ```
  - You can provide a sequence configuration in two ways (see tracking/gen_config.py):
    - ```python run_tracker.py -s [seq name]```
