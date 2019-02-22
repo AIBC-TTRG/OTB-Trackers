@@ -76,7 +76,7 @@ void TLD::init(const Mat& frame1,const Rect& box,FILE* bb_file){
   //Print
   //The source code 
   //fprintf(bb_file,"%d,%d,%d,%d,%f\n",lastbox.x,lastbox.y,lastbox.br().x,lastbox.br().y,lastconf);
-  fprintf(bb_file,"%d,%d,%d,%d\n",lastbox.x,lastbox.y,lastbox.br().x,lastbox.br().y);
+  fprintf(bb_file,"%d,%d,%d,%d\n",lastbox.x,lastbox.y,lastbox.width,lastbox.height);
   //Prepare Classifier
   classifier.prepare(scales);
   ///Generate Data
@@ -310,7 +310,7 @@ void TLD::processFrame(const cv::Mat& img1,const cv::Mat& img2,vector<Point2f>& 
   if (lastboxfound)
     //The source code
     //fprintf(bb_file,"%d,%d,%d,%d,%f\n",lastbox.x,lastbox.y,lastbox.br().x,lastbox.br().y,lastconf);
-    fprintf(bb_file,"%d,%d,%d,%d\n",lastbox.x,lastbox.y,lastbox.br().x,lastbox.br().y);
+    fprintf(bb_file,"%d,%d,%d,%d\n",lastbox.x,lastbox.y,lastbox.width,lastbox.height);
   else
     //The source code
     //fprintf(bb_file,"NaN,NaN,NaN,NaN,NaN\n");
