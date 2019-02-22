@@ -11,6 +11,10 @@ cd build
 cmake ../src/
 make
 cd ../bin/
+
+=====================================
+Running the Job
+=====================================
 %To run from camera
 ./run_tld -p ../parameters.yml
 %To run from file
@@ -21,6 +25,14 @@ cd ../bin/
 ./run_tld -p ../parameters.yml -s ../datasets/06_car/car.mpg -b ../datasets/06_car/init.txt -no_tl 
 %To test the final detector (Repeat the video, first time learns, second time detects)
 ./run_tld -p ../parameters.yml -s ../datasets/06_car/car.mpg -b ../datasets/06_car/init.txt -r
+
+=====================================
+Notes
+=====================================
+%After modify the file in /src/ with code, you should operate command as fellows:
+cd ../build/
+make
+cd ../bin/
 
 =====================================
 Evaluation
