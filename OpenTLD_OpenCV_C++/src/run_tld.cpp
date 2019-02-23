@@ -27,8 +27,10 @@ void readBB(char* file){
   getline (linestream,y2, ',');
   int x = atoi(x1.c_str());// = (int)file["bb_x"];
   int y = atoi(y1.c_str());// = (int)file["bb_y"];
-  int w = atoi(x2.c_str())-x;// = (int)file["bb_w"];
-  int h = atoi(y2.c_str())-y;// = (int)file["bb_h"];
+  //int w = atoi(x2.c_str())-x;// = (int)file["bb_w"];
+  //int h = atoi(y2.c_str())-y;// = (int)file["bb_h"];
+  int w = atoi(x2.c_str());
+  int h = atoi(y2.c_str());
   box = Rect(x,y,w,h);
 }
 //bounding box mouse callback
