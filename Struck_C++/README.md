@@ -16,7 +16,7 @@ Copyright (C) 2011 Sam Hare, Oxford Brookes University, Oxford, UK
 * OpenCV: http://opencv.org/
 * Eigen: http://eigen.tuxfamily.org/
 
-This code has been tested using OpenCV v2.4.12 and Eigen v3.2.6
+This code has been tested using OpenCV v2.4.12 and Eigen v3.2.6（http://eigen.tuxfamily.org/index.php?title=ChangeLog#Eigen_3.2.6）
 
 ## Compilation
 
