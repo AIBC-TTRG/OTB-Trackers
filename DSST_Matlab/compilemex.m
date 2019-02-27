@@ -1,0 +1,1 @@
+mex -lopencv_core -lopencv_imgproc -L/usr/include/ -I/usr/include/ /home/kris-allen/AIBC/github/OTB/tracker/DSST/mexResize.cpp /home/kris-allen/AIBC/github/OTB/tracker/DSST/MxArray.cpp
